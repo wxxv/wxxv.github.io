@@ -212,13 +212,13 @@ latest_posts:
 
 research_interest:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new items
+  limit: 3
 
 awards_honors:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new items
+  limit: 3 # leave blank to include all the awards
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
