@@ -6,4 +6,4 @@ related_posts: false
 gif_url: "/assets/img/blob_excited.gif"
 ---
 
-Our paper "Leveraging Knowledge of Modality Experts for Incomplete Multimodal Learning" at MM'24 has been honored with **Best Paper  Nomination (26/4385)**, and further honered with **Honourable Mention Award!** :sparkles:
+Our paper "Leveraging Knowledge of Modality Experts for Incomplete Multimodal Learning" at MM'24 has been honored with **Best Paper  Nomination (26/4385)**, and further honered with [**Honourable Mention Award**](https://2024.acmmm.org/awards)! :sparkles:
