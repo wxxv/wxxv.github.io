@@ -440,16 +440,17 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-one-paper-about-imbalanced-classification-of-emotion-recognition-is-accepted-by-prcv-2023",
+          title: 'One paper about imbalanced classification of emotion recognition is accepted by PRCV 2023....',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-one-paper-about-incomplete-multimodal-learning-is-accepted-by-acm-mm-2024-oral-3-97",
+          title: 'One paper about incomplete multimodal learning is accepted by ACM MM 2024 (Oral,...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-one-paper-about-imbalanced-regression-of-emotion-recognition-is-accepted-by-pattern-recognition",
+          title: 'One paper about imbalanced regression of emotion recognition is accepted by Pattern Recognition....',
+          description: "",
+          section: "News",},{id: "news-our-paper-leveraging-knowledge-of-modality-experts-for-incomplete-multimodal-learning-at-mm-24-has-been-honored-with-best-paper-nomination-26-4385-and-further-honered-with-honourable-mention-award-sparkles",
+          title: 'Our paper “Leveraging Knowledge of Modality Experts for Incomplete Multimodal Learning” at MM’24...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
