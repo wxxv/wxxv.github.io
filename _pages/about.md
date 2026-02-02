@@ -23,9 +23,13 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 5 # leave blank to include all the blog postsçç
 
-awards_honors: true
+# awards_honors: true
+awards_honors:
+  enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new items
+  limit: 5 # leave blank to include all the awards
 ---
 
-I am currently a research assistant at The Hong Kong Polytechnic University (PolyU). I will begin my PhD studies in 2026 spring, co-advised by [Prof. Chen Jason Zhang](https://www.zhangchen.info/), [Prof. Xiaoyong Wei](https://www4.comp.polyu.edu.hk/~x1wei/) and [Prof. Qing Li](https://www4.comp.polyu.edu.hk/~csqli/). Previously, I obtained my Master's and Bachelor's degree at Xidian University, under the guidance of [Prof. Xuefeng Liang](https://web.xidian.edu.cn/xliang/index.html).
+I am currently a 1-st year Ph.D student at The Hong Kong Polytechnic University (PolyU), co-advised by [Prof. Chen Jason Zhang](https://www.zhangchen.info/), [Prof. Xiaoyong Wei](https://www4.comp.polyu.edu.hk/~x1wei/) and [Prof. Qing Li](https://www4.comp.polyu.edu.hk/~csqli/). Previously, I obtained my Master's and Bachelor's degree at Xidian University, under the guidance of [Prof. Xuefeng Liang](https://web.xidian.edu.cn/xliang/index.html).
 
-My research interests mainly lie in **Natural Language Processing (NLP)**, especially in the fields of **text2sql** and **text2vis**. Additionally, I am interested in **multimodal learning**, including topics like **imbalanced multimodal learning**, **incomplete multimodal learning**, etc., specifically in the field of **affective computing**.
+My research interests mainly lie in **Natural Language Processing (NLP)**, especially in the fields of **text2vis** and **text2sql**. Additionally, I am interested in **multimodal learning**, including topics like **imbalanced multimodal learning**, **incomplete multimodal learning**, etc., specifically in the field of **affective computing**.
