@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research Assistant in PolyU
+subtitle: Ph.D. in PolyU
 
 profile:
   align: right
