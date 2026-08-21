@@ -1,4 +1,123 @@
-User-agent: *
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+
+
+
+<title>Wenxin Xu&#39;s Homepage</title>
+<meta name="description" content="Ph.D. student at The Hong Kong Polytechnic University researching natural language processing and multimodal learning.">
+<link rel="canonical" href="https://wxxv.github.io/robots.txt">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Wenxin Xu&#39;s Homepage">
+<meta property="og:title" content="Wenxin Xu&#39;s Homepage">
+<meta property="og:description" content="Ph.D. student at The Hong Kong Polytechnic University researching natural language processing and multimodal learning.">
+<meta property="og:url" content="https://wxxv.github.io/robots.txt">
+<meta property="og:image" content="https://wxxv.github.io/assets/img/og-homepage.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Wenxin Xu&#39;s Homepage">
+<meta name="twitter:description" content="Ph.D. student at The Hong Kong Polytechnic University researching natural language processing and multimodal learning.">
+<meta name="twitter:image" content="https://wxxv.github.io/assets/img/og-homepage.png">
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" type="image/jpeg" href="/assets/img/xwx.jpg">
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="/assets/css/academicons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    <header class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav" aria-label="Primary navigation">
+        <button type="button" aria-label="Toggle navigation"><span class="navicon"></span></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="/#about-me">Wenxin Xu</a></li>
+          
+            <li class="masthead__menu-item"><a href="/#about-me">About Me</a></li>
+          
+            <li class="masthead__menu-item"><a href="/#news">News</a></li>
+          
+            <li class="masthead__menu-item"><a href="/#publications">Publications</a></li>
+          
+            <li class="masthead__menu-item"><a href="/#honors">Honors and Awards</a></li>
+          
+            <li class="masthead__menu-item"><a href="/#education">Education</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+
+    <main id="main" role="main">
+      
+  <div class="sidebar sticky">
+  
+<div itemscope itemtype="https://schema.org/Person" class="profile_box">
+  <div class="author__avatar">
+    <img src="/assets/img/xwx.jpg" alt="Portrait of Wenxin Xu" itemprop="image" width="360" height="360">
+  </div>
+  <div class="author__content">
+    <h2 class="author__name" itemprop="name">Wenxin Xu</h2>
+    <p class="author__native-name">许文鑫</p>
+    <p class="author__bio" itemprop="jobTitle">Ph.D. student in PolyU</p>
+  </div>
+  <div class="author__urls-wrapper">
+    <ul class="author__urls social-icons">
+      <li><i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="homeLocation">Hong Kong</span></li>
+      <li><a href="mailto:wenxin.xu.xhzd@gmail.com"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
+      <li><a href="https://scholar.google.com/citations?user=PNCUHp8AAAAJ" target="_blank" rel="noopener noreferrer"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></li>
+      <li><a href="https://github.com/wxxv" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+      <li><a href="/assets/pdf/CV_Xu%20Wenxin.pdf" target="_blank" rel="noopener noreferrer"><i class="fas fa-fw fa-file-alt" aria-hidden="true"></i> Curriculum Vitae</a></li>
+    </ul>
+    <div class="author__urls_sm" aria-label="Profile links">
+      <a href="mailto:wenxin.xu.xhzd@gmail.com" aria-label="Email"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
+      <a href="https://scholar.google.com/citations?user=PNCUHp8AAAAJ" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i></a>
+      <a href="https://github.com/wxxv" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-fw fa-github" aria-hidden="true"></i></a>
+      <a href="/assets/pdf/CV_Xu%20Wenxin.pdf" target="_blank" rel="noopener noreferrer" aria-label="Curriculum Vitae"><i class="fas fa-fw fa-file-alt" aria-hidden="true"></i></a>
+    </div>
+  </div>
+</div>
+
+  
+  </div>
+
+      <article class="page" itemscope itemtype="https://schema.org/Person">
+        <div class="page__inner-wrap">
+          <section id="main-content" class="page__content" itemprop="description">
+            User-agent: *
 Disallow:
 
 Sitemap: https://wxxv.github.io/sitemap.xml
+
+          </section>
+        </div>
+      </article>
+    </main>
+
+    <script src="/assets/js/main.min.js"></script>
+
+
+
+  </body>
+</html>
