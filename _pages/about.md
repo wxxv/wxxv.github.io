@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: ""
-description: "Wenxin Xu's academic homepage, research interests, publications, news, and education."
+description: "Wenxin Xu's academic homepage, research interests, publications, news, and experience."
 author_profile: true
 ---
 
@@ -116,9 +116,9 @@ My research interests mainly lie in **Natural Language Processing (NLP)**, espec
 - *2024*, **ACM MM 2024 Honourable Mention Award**.
 - *2024*, **National Scholarship**.
 
-<span class="anchor" id="education"></span>
+<span class="anchor" id="experience"></span>
 
-# 📖 Education
+# 📖 Experience
 
 - *2026.01 ～ Present*, **Ph.D. student**, The Hong Kong Polytechnic University.
 - *2025.04 ～ 2025.12*, **Research Assistant**, The Hong Kong Polytechnic University.
