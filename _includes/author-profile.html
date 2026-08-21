@@ -1,0 +1,26 @@
+{% assign author = site.author %}
+<div itemscope itemtype="https://schema.org/Person" class="profile_box">
+  <div class="author__avatar">
+    <img src="{{ author.avatar | relative_url }}" alt="Portrait of {{ author.name }}" itemprop="image" width="360" height="360">
+  </div>
+  <div class="author__content">
+    <h2 class="author__name" itemprop="name">{{ author.name }}</h2>
+    {% if author.native_name %}<p class="author__native-name">{{ author.native_name }}</p>{% endif %}
+    {% if author.bio %}<p class="author__bio" itemprop="jobTitle">{{ author.bio }}</p>{% endif %}
+  </div>
+  <div class="author__urls-wrapper">
+    <ul class="author__urls social-icons">
+      {% if author.location %}<li><i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="homeLocation">{{ author.location }}</span></li>{% endif %}
+      {% if author.email %}<li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>{% endif %}
+      {% if author.googlescholar %}<li><a href="{{ author.googlescholar }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></li>{% endif %}
+      {% if author.github %}<li><a href="https://github.com/{{ author.github }}" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>{% endif %}
+      {% if author.cv %}<li><a href="{{ author.cv | relative_url }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-fw fa-file-alt" aria-hidden="true"></i> Curriculum Vitae</a></li>{% endif %}
+    </ul>
+    <div class="author__urls_sm" aria-label="Profile links">
+      {% if author.email %}<a href="mailto:{{ author.email }}" aria-label="Email"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>{% endif %}
+      {% if author.googlescholar %}<a href="{{ author.googlescholar }}" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i></a>{% endif %}
+      {% if author.github %}<a href="https://github.com/{{ author.github }}" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-fw fa-github" aria-hidden="true"></i></a>{% endif %}
+      {% if author.cv %}<a href="{{ author.cv | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Curriculum Vitae"><i class="fas fa-fw fa-file-alt" aria-hidden="true"></i></a>{% endif %}
+    </div>
+  </div>
+</div>
