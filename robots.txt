@@ -59,7 +59,7 @@
           
             <li class="masthead__menu-item"><a href="/#honors">Honors and Awards</a></li>
           
-            <li class="masthead__menu-item"><a href="/#education">Education</a></li>
+            <li class="masthead__menu-item"><a href="/#experience">Experience</a></li>
           
         </ul>
         <ul class="hidden-links hidden"></ul>
