@@ -32,39 +32,12 @@ author:
 include:
   - _pages
 exclude:
-  - .devcontainer
   - .github
   - .jekyll-cache
-  - .tweet-cache
-  - _bibliography
-  - _books
-  - _news
-  - _plugins
-  - _posts
-  - _projects
-  - _scripts
-  - bin
-  - CONTRIBUTING.md
-  - CUSTOMIZE.md
-  - Dockerfile
-  - FAQ.md
-  - INSTALL.md
+  - LICENSE
   - README.md
-  - docker-compose.yml
-  - docker-compose-slim.yml
   - Gemfile
-  - Gemfile.lock
-  - lighthouse_results
-  - node_modules
-  - package.json
-  - package-lock.json
-  - purgecss.config.js
-  - readme_preview
-  - requirements.txt
   - vendor
-  - _pages/cv.md
-  - _pages/news.md
-  - _pages/publications.md
 
 # Markdown and layouts
 encoding: "utf-8"
@@ -87,9 +60,9 @@ defaults:
 sass:
   sass_dir: _sass
   style: compressed
+  sourcemap: never
 
 permalink: /:categories/:title/
 
 plugins:
-  - jekyll-feed
   - jekyll-sitemap

@@ -15,11 +15,11 @@ My research interests mainly lie in **Natural Language Processing (NLP)**, espec
 
 # 🔥 News
 
-- [*2026.05*: One paper on robust and interactive text-to-visualization was accepted by The VLDB Journal.](#publication-text2vis){:.news-link}
+- [*2026.05*: One paper on robust and interactive text-to-visualization was accepted by **The VLDB Journal**.](#publication-text2vis){:.news-link}
 - [*2024.10*: Our ACM MM 2024 paper received a **Best Paper Nomination** (26/4,385 papers) and an **Honourable Mention Award** (10/4,385 papers).](#publication-momke){:.news-link}
-- [*2024.08*: One paper on imbalanced regression for emotion recognition was accepted by Pattern Recognition.](#publication-ulda){:.news-link}
-- [*2024.07*: One paper on incomplete multimodal learning was accepted by ACM MM 2024 as an oral presentation (3.97%).](#publication-momke){:.news-link}
-- [*2023.08*: One paper on imbalanced classification for emotion recognition was accepted by PRCV 2023.](#publication-pdds){:.news-link}
+- [*2024.08*: One paper on imbalanced regression for emotion recognition was accepted by **Pattern Recognition**.](#publication-ulda){:.news-link}
+- [*2024.07*: One paper on incomplete multimodal learning was accepted by **ACM MM 2024** as an **oral presentation (3.97%)**.](#publication-momke){:.news-link}
+- [*2023.08*: One paper on imbalanced classification for emotion recognition was accepted by **PRCV 2023**.](#publication-pdds){:.news-link}
 
 <span class="anchor" id="publications"></span>
 
