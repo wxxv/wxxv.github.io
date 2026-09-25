@@ -15,6 +15,7 @@ My research interests mainly lie in **Natural Language Processing (NLP)**, espec
 
 # 🔥 News
 
+- [*2026.09*: One paper on dynamic interactive text-to-visualization was accepted by **NeurIPS 2026** as a **Spotlight**.](#publication-visinteract){:.news-link}
 - [*2026.05*: One paper on robust and interactive text-to-visualization was accepted by **The VLDB Journal**.](#publication-text2vis){:.news-link}
 - [*2024.10*: Our ACM MM 2024 paper received a **Best Paper Nomination** (26/4,385 papers) and an **Honourable Mention Award** (10/4,385 papers).](#publication-momke){:.news-link}
 - [*2024.08*: One paper on imbalanced regression for emotion recognition was accepted by **Pattern Recognition**.](#publication-ulda){:.news-link}
@@ -26,6 +27,26 @@ My research interests mainly lie in **Natural Language Processing (NLP)**, espec
 # 📝 Publications
 
 <p class="publication-note"><sup>*</sup> Equal contribution.</p>
+
+<div class="paper-box" id="publication-visinteract">
+  <div class="paper-box-image">
+    <div>
+      <div class="badge">NeurIPS 2026 Spotlight</div>
+      <img src="{{ '/assets/img/publication_preview/VisInteract_NeurIPS26.png' | relative_url }}" alt="VisInteract recovers user intent from imperfect text-to-visualization queries through dynamic multi-turn interaction" loading="lazy">
+    </div>
+  </div>
+  <div class="paper-box-text" markdown="1">
+
+**VisInteract: Towards Dynamic Interactive Text-to-Visualization under Imperfect Queries**
+
+<p class="paper-authors"><strong>Authors:</strong> <strong class="author-self">Wenxin Xu<sup>*</sup></strong>, Jinwei Lu<sup>*</sup>, Hwanhee Kim, Chen Jason Zhang, Xiao-Yong Wei, Haoyang Li, Yuanfeng Song</p>
+
+<p class="paper-venue"><strong>Conference:</strong> <em>The Fortieth Annual Conference on Neural Information Processing Systems</em> <strong>(NeurIPS 2026), Spotlight</strong></p>
+
+<div class="paper-links"><a href="https://arxiv.org/abs/2609.15182">Paper</a><a href="https://github.com/wxxv/VisInteract">Code</a></div>
+
+  </div>
+</div>
 
 <div class="paper-box" id="publication-text2vis">
   <div class="paper-box-image">
