@@ -9,15 +9,18 @@ author_profile: true
 
 I am currently a 1-st year Ph.D student at The Hong Kong Polytechnic University (PolyU), co-advised by [Prof. Chen Jason Zhang](https://www.zhangchen.info/), [Prof. Xiaoyong Wei](https://www4.comp.polyu.edu.hk/~x1wei/) and [Prof. Qing Li](https://www4.comp.polyu.edu.hk/~csqli/). Previously, I obtained my Master's and Bachelor's degree at Xidian University, under the guidance of [Prof. Xuefeng Liang](https://web.xidian.edu.cn/xliang/index.html).
 
-My research interests mainly lie in **Natural Language Processing (NLP)**, especially in the fields of **text2vis** and **text2sql**. Additionally, I am interested in **multimodal learning**, including topics like **imbalanced multimodal learning**, **incomplete multimodal learning**, etc., specifically in the field of **affective computing**.
+<div class="research-interests">
+  <p class="research-interests__title">Research interests</p>
+  <p class="research-interests__topics">LLM Reasoning | LLM Agents | Agentic Harness | Text-to-Vis | Text-to-SQL | Multimodal Learning | Affective Computing</p>
+</div>
 
 <span class="anchor" id="news"></span>
 
 # 🔥 News
 
-- [*2026.09*: One paper on dynamic interactive text-to-visualization was accepted by **NeurIPS 2026** as a **Spotlight**.](#publication-visinteract){:.news-link}
+- [*2026.09*: One paper on dynamic interactive text-to-visualization was accepted by **NeurIPS 2026** as a **Spotlight** (292/30709 papers).](#publication-visinteract){:.news-link}
 - [*2026.05*: One paper on robust and interactive text-to-visualization was accepted by **The VLDB Journal**.](#publication-text2vis){:.news-link}
-- [*2024.10*: Our ACM MM 2024 paper received a **Best Paper Nomination** (26/4,385 papers) and an **Honourable Mention Award** (10/4,385 papers).](#publication-momke){:.news-link}
+- [*2024.10*: Our ACM MM 2024 paper received a **Best Paper Nomination** (26/4385 papers) and an **Honourable Mention Award** (10/4385 papers).](#publication-momke){:.news-link}
 - [*2024.08*: One paper on imbalanced regression for emotion recognition was accepted by **Pattern Recognition**.](#publication-ulda){:.news-link}
 - [*2024.07*: One paper on incomplete multimodal learning was accepted by **ACM MM 2024** as an **oral presentation (3.97%)**.](#publication-momke){:.news-link}
 - [*2023.08*: One paper on imbalanced classification for emotion recognition was accepted by **PRCV 2023**.](#publication-pdds){:.news-link}
@@ -31,7 +34,7 @@ My research interests mainly lie in **Natural Language Processing (NLP)**, espec
 <div class="paper-box" id="publication-visinteract">
   <div class="paper-box-image">
     <div>
-      <div class="badge">NeurIPS 2026 Spotlight</div>
+      <div class="badge">NeurIPS 2026 (Spotlight)</div>
       <img src="{{ '/assets/img/publication_preview/VisInteract_NeurIPS26.png' | relative_url }}" alt="VisInteract recovers user intent from imperfect text-to-visualization queries through dynamic multi-turn interaction" loading="lazy">
     </div>
   </div>
@@ -41,7 +44,7 @@ My research interests mainly lie in **Natural Language Processing (NLP)**, espec
 
 <p class="paper-authors"><strong>Authors:</strong> <strong class="author-self">Wenxin Xu<sup>*</sup></strong>, Jinwei Lu<sup>*</sup>, Hwanhee Kim, Chen Jason Zhang, Xiao-Yong Wei, Haoyang Li, Yuanfeng Song</p>
 
-<p class="paper-venue"><strong>Conference:</strong> <em>The Fortieth Annual Conference on Neural Information Processing Systems</em> <strong>(NeurIPS 2026), Spotlight</strong></p>
+<p class="paper-venue"><strong>Conference:</strong> <em>The Fortieth Annual Conference on Neural Information Processing Systems</em> <strong>(NeurIPS 2026), Spotlight (292/30709)</strong></p>
 
 <div class="paper-links"><a href="https://arxiv.org/abs/2609.15182">Paper</a><a href="https://github.com/wxxv/VisInteract">Code</a></div>
 
@@ -71,7 +74,7 @@ My research interests mainly lie in **Natural Language Processing (NLP)**, espec
 <div class="paper-box" id="publication-momke">
   <div class="paper-box-image">
     <div>
-      <div class="badge">ACM MM 2024</div>
+      <div class="badge">ACM MM 2024 (Honourable Mention Award)</div>
       <img src="{{ '/assets/img/publication_preview/MoMKE_MM24.jpg' | relative_url }}" alt="Overview of the Mixture of Modality Knowledge Experts framework" loading="lazy">
     </div>
   </div>

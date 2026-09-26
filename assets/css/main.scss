@@ -224,6 +224,30 @@ body {
     font-size: 1.03em;
 }
 
+.research-interests {
+    margin: 1.1rem 0 1.4rem;
+    padding: .85rem 1rem .9rem 1.05rem;
+    color: #334155;
+    background: #f7f9fc;
+    border: 1px solid #e1e7ef;
+    border-left: 3px solid #224b8d;
+    border-radius: 8px;
+}
+
+.research-interests__title {
+    margin: 0 0 .4rem;
+    color: #224b8d;
+    font-size: .92em;
+    font-weight: 650;
+}
+
+.research-interests__topics {
+    margin: 0;
+    color: #475569;
+    font-size: .95em;
+    line-height: 1.7;
+}
+
 .paper-box-text > p:first-child {
     color: #172c48;
     font-size: 1.06em;
