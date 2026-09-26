@@ -226,19 +226,20 @@ body {
 
 .research-interests {
     margin: 1.1rem 0 1.4rem;
-    padding: .85rem 1rem .9rem 1.05rem;
+    padding: .95rem 1.1rem 1rem 1.15rem;
     color: #334155;
-    background: #f7f9fc;
-    border: 1px solid #e1e7ef;
-    border-left: 3px solid #224b8d;
-    border-radius: 8px;
+    background: #eef3f9;
+    border: 1px solid #c5d4e6;
+    border-left: 4px solid #224b8d;
+    border-radius: 10px;
+    box-shadow: 0 4px 14px rgba(23, 44, 72, .07);
 }
 
 .research-interests__title {
-    margin: 0 0 .4rem;
+    margin: 0 0 .45rem;
     color: #224b8d;
     font-size: .92em;
-    font-weight: 650;
+    font-weight: 600;
 }
 
 .research-interests__topics {
