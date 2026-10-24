@@ -1,267 +1,535 @@
 <!doctype html>
-<html lang="en" class="no-js">
-  <head>
-    <meta charset="utf-8">
-
-
-
-
-<title>Wenxin Xu&#39;s Homepage</title>
-<meta name="description" content="Wenxin Xu&#39;s academic homepage, research interests, publications, news, and experience.">
-<link rel="canonical" href="https://wxxv.github.io/">
-<meta property="og:locale" content="en_US">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="Wenxin Xu&#39;s Homepage">
-<meta property="og:title" content="Wenxin Xu&#39;s Homepage">
-<meta property="og:description" content="Wenxin Xu&#39;s academic homepage, research interests, publications, news, and experience.">
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wenxin Xu · Research Dashboard</title>
+<meta name="description" content="Wenxin Xu, Ph.D. student at The Hong Kong Polytechnic University. Research on LLM reasoning, agents, text-to-visualization, and multimodal learning.">
+<meta name="author" content="Wenxin Xu">
+<link rel="icon" href="./assets/img/xwx.jpg">
+<link rel="apple-touch-icon" href="./assets/img/xwx.jpg">
+<meta property="og:type" content="profile">
 <meta property="og:url" content="https://wxxv.github.io/">
-<meta property="og:image" content="https://wxxv.github.io/assets/img/og-homepage.png">
+<meta property="og:title" content="Wenxin Xu · Research Dashboard">
+<meta property="og:description" content="Ph.D. student at The Hong Kong Polytechnic University. Research on LLM reasoning, agents, text-to-visualization, and multimodal learning.">
+<meta property="og:image" content="https://wxxv.github.io/assets/img/xwx.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Wenxin Xu&#39;s Homepage">
-<meta name="twitter:description" content="Wenxin Xu&#39;s academic homepage, research interests, publications, news, and experience.">
-<meta name="twitter:image" content="https://wxxv.github.io/assets/img/og-homepage.png">
-
-
-
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#ffffff">
-<link rel="icon" type="image/jpeg" href="/assets/img/xwx.jpg">
-<script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-</script>
-<link rel="stylesheet" href="/assets/css/main.css?v=1791695672">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+<meta name="twitter:title" content="Wenxin Xu · Research Dashboard">
+<meta name="twitter:description" content="Ph.D. student at The Hong Kong Polytechnic University. Research on LLM reasoning, agents, text-to-visualization, and multimodal learning.">
+<meta name="twitter:image" content="https://wxxv.github.io/assets/img/xwx.jpg">
+<link rel="canonical" href="https://wxxv.github.io/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0b0a14;--surface:rgba(255,255,255,.04);--surface-2:rgba(255,255,255,.07);
+    --border:rgba(255,255,255,.08);--border-strong:rgba(255,255,255,.18);
+    --fg:#f4f4f7;--muted:#9ea0b8;
+    --g1:#7c5cff;--g2:#19c8c8;--g3:#ff6ec7;--g4:#f0c674;
+  }
+  /* LIGHT THEME — colors only. Layout, typography, spacing, radii are shared with dark. */
+  [data-theme="light"]{
+    --bg:#faf8ff;--surface:#ffffff;--surface-2:#f9f6ff;
+    --border:rgba(124,92,255,.10);--border-strong:rgba(124,92,255,.22);
+    --fg:#241f4a;--muted:#8884b3;
+    --p-deep:#5b3dc0;
+  }
+  [data-theme="light"] body::before{
+    background:
+      radial-gradient(circle at 15% 10%, rgba(167,139,250,.30), transparent 45%),
+      radial-gradient(circle at 85% 20%, rgba(240,171,252,.25), transparent 45%),
+      radial-gradient(circle at 50% 90%, rgba(124,92,255,.22), transparent 50%),
+      var(--bg);
+  }
+  [data-theme="light"] body::after{background-image:radial-gradient(rgba(124,92,255,.06) 1px,transparent 1px)}
+  [data-theme="light"] a{color:var(--p-deep)}
+  [data-theme="light"] a:hover{color:var(--g1)}
 
-  </head>
-  <body>
-    <a class="skip-link" href="#main-content">Skip to main content</a>
-    <!--[if lt IE 9]>
-<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
-<![endif]-->
-    <header class="masthead">
-  <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav" aria-label="Primary navigation">
-        <button type="button" aria-label="Toggle navigation"><span class="navicon"></span></button>
-        <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="/#about-me">Wenxin Xu</a></li>
-          
-            <li class="masthead__menu-item"><a href="/#about-me">About Me</a></li>
-          
-            <li class="masthead__menu-item"><a href="/#news">News</a></li>
-          
-            <li class="masthead__menu-item"><a href="/#publications">Publications</a></li>
-          
-            <li class="masthead__menu-item"><a href="/#honors">Honors and Awards</a></li>
-          
-            <li class="masthead__menu-item"><a href="/#experience">Experience</a></li>
-          
-        </ul>
-        <ul class="hidden-links hidden"></ul>
-      </nav>
-    </div>
-  </div>
-</header>
+  /* hero */
+  [data-theme="light"] .tagline em{color:var(--p-deep)}
+  [data-theme="light"] .eyebrow{color:var(--p-deep)}
+  [data-theme="light"] .eyebrow .dot{background:#22c55e;box-shadow:0 0 12px #22c55e}
+  [data-theme="light"] h1.name{background:linear-gradient(135deg,var(--p-deep) 0%,var(--g1) 50%,#c084fc 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+  [data-theme="light"] h2{color:var(--fg)}
+  [data-theme="light"] h2 .accent{color:var(--g1);background:none;-webkit-text-fill-color:initial}
+  [data-theme="light"] .stat-num{background:linear-gradient(135deg,var(--p-deep),#c084fc);-webkit-background-clip:text;background-clip:text;color:transparent}
+  [data-theme="light"] .exp-org{color:var(--p-deep)}
+  [data-theme="light"] .exp-when,[data-theme="light"] .news-date{color:var(--p-deep)}
 
+  /* cards */
+  [data-theme="light"] .card::before{background:linear-gradient(90deg,var(--cardA,var(--g1)),var(--cardB,#c084fc))}
+  [data-theme="light"] .card[data-venue="NeurIPS"]{--cardA:#f87171;--cardB:#fb7185}
+  [data-theme="light"] .card[data-venue="VLDBJ"]{--cardA:#22d3ee;--cardB:#818cf8}
+  [data-theme="light"] .card[data-venue="MM"]{--cardA:#fb923c;--cardB:#f472b6}
+  [data-theme="light"] .card[data-venue="PR"]{--cardA:#4ade80;--cardB:#2dd4bf}
+  [data-theme="light"] .card[data-venue="PRCV"]{--cardA:#94a3b8;--cardB:#cbd5e1}
+  [data-theme="light"] .card[data-venue="arXiv"]{--cardA:#a78bfa;--cardB:#22d3ee}
+  [data-theme="light"] .venue{color:#fff;background:linear-gradient(135deg,var(--cardA,var(--g1)),var(--cardB,#c084fc))}
+  [data-theme="light"] .venue.preprint{background:transparent;color:var(--muted)}
+  [data-theme="light"] .card-authors{color:#3f3a6b}
+  [data-theme="light"] .card-authors .me{color:var(--p-deep);border-bottom-color:rgba(91,61,192,.4)}
+  [data-theme="light"] .card-links a:hover{border-color:var(--g1);background:rgba(124,92,255,.08);color:var(--g1)}
 
-    <main id="main" role="main">
-      
-  <div class="sidebar sticky">
-  
-<div itemscope itemtype="https://schema.org/Person" class="profile_box">
-  <div class="author__avatar">
-    <img src="/assets/img/xwx.jpg" alt="Portrait of Wenxin Xu" itemprop="image" width="360" height="360">
-  </div>
-  <div class="author__content">
-    <h2 class="author__name" itemprop="name">Wenxin Xu</h2>
-    <p class="author__native-name">许文鑫</p>
-    <p class="author__bio" itemprop="jobTitle">Ph.D. student in PolyU</p>
-  </div>
-  <div class="author__urls-wrapper">
-    <ul class="author__urls social-icons">
-      <li><i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="homeLocation">Hong Kong</span></li>
-      <li><a href="mailto:wenxin.xu.xhzd@gmail.com"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
-      <li><a href="https://scholar.google.com/citations?user=PNCUHp8AAAAJ" target="_blank" rel="noopener noreferrer"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></li>
-      <li><a href="https://github.com/wxxv" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
-      <li><a href="/assets/pdf/CV_Xu%20Wenxin.pdf" target="_blank" rel="noopener noreferrer"><i class="fas fa-fw fa-file-alt" aria-hidden="true"></i> Curriculum Vitae</a></li>
-    </ul>
-    <div class="author__urls_sm" aria-label="Profile links">
-      <a href="mailto:wenxin.xu.xhzd@gmail.com" aria-label="Email"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
-      <a href="https://scholar.google.com/citations?user=PNCUHp8AAAAJ" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i></a>
-      <a href="https://github.com/wxxv" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-fw fa-github" aria-hidden="true"></i></a>
-      <a href="/assets/pdf/CV_Xu%20Wenxin.pdf" target="_blank" rel="noopener noreferrer" aria-label="Curriculum Vitae"><i class="fas fa-fw fa-file-alt" aria-hidden="true"></i></a>
-    </div>
-  </div>
-</div>
+  /* filters & search */
+  [data-theme="light"] .search-bar input{color:var(--fg);background:var(--surface)}
+  [data-theme="light"] .search-bar input:focus{border-color:var(--g1)}
+  [data-theme="light"] .search-bar svg{color:var(--p-deep)}
+  [data-theme="light"] .filter{background:var(--surface)}
+  [data-theme="light"] .filter:hover{color:var(--p-deep);border-color:var(--g1)}
+  [data-theme="light"] .filter.active{background:linear-gradient(135deg,var(--g1),#c084fc);color:#fff}
 
-  
-  </div>
+  /* badges */
+  [data-theme="light"] .award{color:#a16207;background:rgba(250,204,21,.16);border-color:rgba(234,179,8,.5)}
+  [data-theme="light"] .ccf-a{color:#b42318;background:rgba(244,63,94,.1);border-color:rgba(244,63,94,.35)}
+  [data-theme="light"] .ccf-b{color:#1d4ed8;background:rgba(59,130,246,.1);border-color:rgba(59,130,246,.35)}
+  [data-theme="light"] .ccf-c{color:#15803d;background:rgba(34,197,94,.12);border-color:rgba(34,197,94,.35)}
+  [data-theme="light"] .cites{color:var(--p-deep);background:rgba(124,92,255,.08);border-color:rgba(124,92,255,.22)}
 
-      <article class="page" itemscope itemtype="https://schema.org/Person">
-        <div class="page__inner-wrap">
-          <section id="main-content" class="page__content" itemprop="description">
-            <p><span class="anchor" id="about-me"></span></p>
+  /* abstract popover */
+  [data-theme="light"] .abstract-pop{background:#fff;color:var(--fg);box-shadow:0 24px 60px rgba(91,61,192,.15);border-color:var(--border-strong)}
+  [data-theme="light"] .abstract-pop .pop-label{color:var(--p-deep)}
+  [data-theme="light"] .abstract-pop .pop-body{color:#3f3a6b}
+  [data-theme="light"] .abstract-pop .pop-body em{color:var(--p-deep)}
 
-<p>I am currently a 1-st year Ph.D student at The Hong Kong Polytechnic University (PolyU), co-advised by <a href="https://www.zhangchen.info/">Prof. Chen Jason Zhang</a>, <a href="https://www4.comp.polyu.edu.hk/~x1wei/">Prof. Xiaoyong Wei</a> and <a href="https://www4.comp.polyu.edu.hk/~csqli/">Prof. Qing Li</a>. Previously, I obtained my Master’s and Bachelor’s degree at Xidian University, under the guidance of <a href="https://web.xidian.edu.cn/xliang/index.html">Prof. Xuefeng Liang</a>.</p>
+  .theme-toggle{position:fixed;top:24px;right:24px;width:42px;height:42px;border-radius:50%;border:1px solid var(--border-strong);background:var(--surface);color:var(--fg);cursor:pointer;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(20px);z-index:40;transition:all .15s}
+  .theme-toggle:hover{border-color:var(--g1);color:var(--g1);transform:scale(1.05)}
+  .theme-toggle svg{width:18px;height:18px}
+  .theme-toggle .sun{display:none}
+  [data-theme="light"] .theme-toggle .sun{display:block}
+  [data-theme="light"] .theme-toggle .moon{display:none}
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font-family:'Inter',system-ui,sans-serif;font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  body::before{
+    content:"";position:fixed;inset:0;z-index:-2;
+    background:
+      radial-gradient(circle at 15% 10%, rgba(124,92,255,.25), transparent 45%),
+      radial-gradient(circle at 85% 20%, rgba(25,200,200,.18), transparent 45%),
+      radial-gradient(circle at 50% 90%, rgba(255,110,199,.18), transparent 50%),
+      var(--bg);
+  }
+  body::after{
+    content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
+    background-image:radial-gradient(rgba(255,255,255,.04) 1px,transparent 1px);
+    background-size:24px 24px;mask:radial-gradient(circle at 50% 30%,black,transparent 80%);
+  }
+  a{color:var(--g2);text-decoration:none;transition:color .15s}
+  a:hover{color:var(--g4)}
 
-<div class="research-interests">
-  <p class="research-interests__title">Research interests</p>
-  <p class="research-interests__topics">LLM Reasoning | LLM Agents | Agentic Harness | Text-to-Vis | Text-to-SQL | Multimodal Learning | Affective Computing</p>
-</div>
+  .wrap{max-width:1180px;margin:0 auto;padding:48px 24px 80px}
 
-<p><span class="anchor" id="news"></span></p>
+  /* HERO */
+  .hero{display:grid;grid-template-columns:1fr 220px;gap:48px;align-items:start;padding:36px 0 36px;border-bottom:1px solid var(--border)}
+  @media(max-width:760px){.hero{grid-template-columns:1fr;text-align:center}.pills{justify-content:center}}
+  .eyebrow{font-family:'JetBrains Mono',monospace;color:var(--muted);font-size:12px;letter-spacing:.2em;text-transform:uppercase;margin-bottom:14px}
+  .eyebrow .dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:#41d486;margin-right:8px;vertical-align:1px;box-shadow:0 0 12px #41d486}
+  h1.name{font-size:64px;line-height:1;font-weight:800;letter-spacing:-.03em;margin:0 0 8px;background:linear-gradient(135deg,#fff 30%,var(--g1) 70%,var(--g3));-webkit-background-clip:text;background-clip:text;color:transparent}
+  @media(max-width:760px){h1.name{font-size:44px}}
+  .native{margin:0 0 18px;color:var(--muted);font-size:16px;letter-spacing:.14em}
+  .tagline{color:var(--muted);font-size:18px;max-width:640px;line-height:1.6;margin:0 0 22px}
+  .tagline em{color:var(--g4);font-style:normal;font-weight:500}
+  .pills{display:flex;flex-wrap:wrap;gap:8px}
+  .pill{display:inline-flex;align-items:center;gap:6px;padding:7px 14px;border-radius:999px;background:var(--surface);border:1px solid var(--border-strong);font-size:13px;color:var(--fg);transition:all .15s}
+  .pill:hover{background:var(--surface-2);border-color:var(--g2);color:var(--g2);transform:translateY(-1px)}
+  .photo-wrap{position:relative;width:200px;height:200px;margin:0 auto}
+  .photo-wrap::before{content:"";position:absolute;inset:-3px;border-radius:50%;background:conic-gradient(from 0deg,var(--g1),var(--g2),var(--g3),var(--g1));animation:spin 6s linear infinite}
+  .photo-wrap img{position:relative;width:100%;height:100%;border-radius:50%;object-fit:cover;object-position:center 18%;background:var(--bg)}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  @media (prefers-reduced-motion: reduce){.photo-wrap::before{animation:none}}
 
-<h1 id="-news">🔥 News</h1>
+  /* STATS */
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:32px 0 8px}
+  @media(max-width:600px){.stats{grid-template-columns:repeat(2,1fr)}}
+  .stat{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:18px;backdrop-filter:blur(20px)}
+  .stat-num{font-size:32px;font-weight:700;background:linear-gradient(135deg,#fff,var(--g2));-webkit-background-clip:text;background-clip:text;color:transparent;letter-spacing:-.02em;min-height:38px}
+  .stat-num.loading::after{content:"…";color:var(--muted);background:none;-webkit-text-fill-color:var(--muted)}
+  .stat-label{color:var(--muted);font-size:12px;font-family:'JetBrains Mono',monospace;letter-spacing:.1em;text-transform:uppercase;margin-top:4px}
+  .stat-source{color:var(--muted);font-size:10px;font-family:'JetBrains Mono',monospace;margin-top:6px;opacity:.5}
 
-<ul>
-  <li><a href="#publication-visinteract" class="news-link"><em>2026.09</em>: One paper on dynamic interactive text-to-visualization was accepted by <strong>NeurIPS 2026</strong> as a <strong>Spotlight</strong> (292/30709 papers).</a></li>
-  <li><a href="#publication-text2vis" class="news-link"><em>2026.05</em>: One paper on robust and interactive text-to-visualization was accepted by <strong>The VLDB Journal</strong>.</a></li>
-  <li><a href="#publication-momke" class="news-link"><em>2024.10</em>: Our ACM MM 2024 paper received a <strong>Best Paper Nomination</strong> (26/4385 papers) and an <strong>Honourable Mention Award</strong> (10/4385 papers).</a></li>
-  <li><a href="#publication-ulda" class="news-link"><em>2024.08</em>: One paper on imbalanced regression for emotion recognition was accepted by <strong>Pattern Recognition</strong>.</a></li>
-  <li><a href="#publication-momke" class="news-link"><em>2024.07</em>: One paper on incomplete multimodal learning was accepted by <strong>ACM MM 2024</strong> as an <strong>oral presentation (3.97%)</strong>.</a></li>
-  <li><a href="#publication-pdds" class="news-link"><em>2023.08</em>: One paper on imbalanced classification for emotion recognition was accepted by <strong>PRCV 2023</strong>.</a></li>
-</ul>
+  /* SECTIONS */
+  section{margin-top:64px}
+  .sec-head{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:24px;gap:16px;flex-wrap:wrap}
+  h2{font-size:24px;font-weight:700;letter-spacing:-.02em;margin:0}
+  h2 .accent{background:linear-gradient(135deg,var(--g1),var(--g3));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .sec-meta{color:var(--muted);font-size:13px;font-family:'JetBrains Mono',monospace}
+  .note{margin:-12px 0 18px;color:var(--muted);font-size:12px}
 
-<p><span class="anchor" id="publications"></span></p>
+  /* NEWS */
+  .news{display:grid;gap:10px}
+  .news-card{display:grid;grid-template-columns:120px 1fr;gap:18px;padding:14px 16px;background:var(--surface);border:1px solid var(--border);border-radius:12px;transition:all .15s}
+  .news-card:hover{background:var(--surface-2);border-color:var(--border-strong)}
+  .news-date{color:var(--g4);font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:500}
+  .news-text{font-size:14px;color:var(--fg)}
+  @media(max-width:600px){.news-card{grid-template-columns:1fr;gap:4px}}
 
-<h1 id="-publications">📝 Publications</h1>
+  /* CONTROLS (search + filters) */
+  .controls{display:flex;flex-direction:column;gap:10px;margin-bottom:20px}
+  .search-bar{position:relative}
+  .search-bar input{width:100%;padding:11px 16px 11px 40px;border-radius:12px;border:1px solid var(--border-strong);background:var(--surface);color:var(--fg);font-family:inherit;font-size:14px;outline:none;transition:border-color .15s}
+  .search-bar input:focus{border-color:var(--g2)}
+  .search-bar input::placeholder{color:var(--muted)}
+  .search-bar svg{position:absolute;left:14px;top:50%;transform:translateY(-50%);width:16px;height:16px;color:var(--muted)}
+  .filters{display:flex;gap:6px;flex-wrap:wrap}
+  .filter-group{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+  .filter-group .label{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted);letter-spacing:.1em;text-transform:uppercase;margin-right:4px}
+  .filter{padding:6px 12px;border-radius:999px;border:1px solid var(--border);background:transparent;color:var(--muted);font-size:12px;cursor:pointer;font-family:'JetBrains Mono',monospace;letter-spacing:.05em;transition:all .15s}
+  .filter:hover{color:var(--fg);border-color:var(--border-strong)}
+  .filter.active{background:linear-gradient(135deg,var(--g1),var(--g2));border-color:transparent;color:#fff}
 
-<p class="publication-note"><sup>*</sup> Equal contribution.</p>
+  /* PAPERS GRID */
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(420px,1fr));gap:16px}
+  @media(max-width:600px){.grid{grid-template-columns:1fr}}
+  .card{position:relative;background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:20px;transition:all .2s;overflow:hidden;cursor:default}
+  .card:hover{transform:translateY(-2px);border-color:var(--border-strong);background:var(--surface-2)}
+  .card::before{content:"";position:absolute;top:0;left:0;height:3px;width:100%;background:linear-gradient(90deg,var(--card-c1,var(--g1)),var(--card-c2,var(--g2)));opacity:.8}
+  .card[data-venue="NeurIPS"]{--card-c1:#ff7b72;--card-c2:#f85149}
+  .card[data-venue="VLDBJ"]{--card-c1:#22d3ee;--card-c2:#818cf8}
+  .card[data-venue="MM"]{--card-c1:#fb923c;--card-c2:#f472b6}
+  .card[data-venue="PR"]{--card-c1:#4ade80;--card-c2:#2dd4bf}
+  .card[data-venue="PRCV"]{--card-c1:#a8b4c4;--card-c2:#7d8da3}
+  .card[data-venue="arXiv"]{--card-c1:#8b7cff;--card-c2:#19c8c8}
+  .card.hidden{display:none}
+  .card-row{display:flex;align-items:center;gap:10px;margin-bottom:10px;flex-wrap:wrap}
+  .venue{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:600;letter-spacing:.1em;padding:3px 8px;border-radius:5px;background:linear-gradient(135deg,var(--card-c1,var(--g1)),var(--card-c2,var(--g2)));color:#0b0a14}
+  .venue.preprint{background:transparent;border:1px solid var(--border-strong);color:var(--muted);font-weight:400}
+  .year{color:var(--muted);font-family:'JetBrains Mono',monospace;font-size:11px}
+  .card-title{font-weight:600;font-size:15.5px;line-height:1.35;margin-bottom:6px;color:var(--fg)}
+  .card-authors{color:var(--muted);font-size:13px;line-height:1.5;margin-bottom:12px}
+  .card-authors .me{color:var(--g4);font-weight:600;border-bottom:1px solid rgba(240,198,116,.4)}
+  .card-links{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+  .card-links a{font-family:'JetBrains Mono',monospace;font-size:11px;padding:3px 8px;border:1px solid var(--border-strong);border-radius:5px;color:var(--fg)}
+  .card-links a:hover{border-color:var(--g2);background:rgba(25,200,200,.1);color:var(--g2)}
+  .award{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:600;color:var(--g4);padding:3px 8px;background:rgba(240,198,116,.12);border:1px solid rgba(240,198,116,.4);border-radius:5px}
+  .ccf{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:600;padding:3px 8px;border-radius:5px;letter-spacing:.04em}
+  .ccf-a{color:#ffb4ab;background:rgba(255,123,114,.12);border:1px solid rgba(255,123,114,.45)}
+  .ccf-b{color:#9ecbff;background:rgba(121,192,255,.1);border:1px solid rgba(121,192,255,.4)}
+  .ccf-c{color:#9be7a8;background:rgba(126,231,135,.1);border:1px solid rgba(126,231,135,.4)}
+  .cites{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--g2);display:inline-flex;align-items:center;gap:3px;padding:3px 6px;background:rgba(25,200,200,.08);border:1px solid rgba(25,200,200,.22);border-radius:5px}
 
-<div class="paper-box" id="publication-visinteract">
-  <div class="paper-box-image">
+  /* ABSTRACT TOOLTIP */
+  .abstract-pop{position:fixed;max-width:480px;max-height:min(320px,70vh);overflow:auto;background:#13121f;border:1px solid var(--border-strong);border-radius:12px;padding:16px;color:var(--fg);font-size:13.5px;line-height:1.55;z-index:50;box-shadow:0 24px 60px rgba(0,0,0,.6);display:none;backdrop-filter:blur(20px)}
+  .abstract-pop.show{display:block;animation:popin .15s ease}
+  @keyframes popin{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+  .abstract-pop .pop-label{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--g2);letter-spacing:.15em;text-transform:uppercase;margin-bottom:8px}
+  .abstract-pop .pop-body{color:var(--muted)}
+  .abstract-pop .pop-body em{color:var(--g4);font-style:normal}
+
+  .empty{padding:40px;text-align:center;color:var(--muted);font-size:14px;border:1px dashed var(--border);border-radius:14px}
+
+  /* EXP */
+  .exp{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+  .exp-card{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:18px;transition:all .15s}
+  .exp-card:hover{border-color:var(--border-strong);background:var(--surface-2)}
+  .exp-org{font-weight:600;font-size:16px;margin-bottom:4px}
+  .exp-when{color:var(--g4);font-family:'JetBrains Mono',monospace;font-size:12px;margin-bottom:8px}
+  .exp-desc{color:var(--muted);font-size:13px}
+  .exp-desc strong{color:var(--fg);font-weight:500}
+
+  /* FOOTER */
+  footer{margin-top:80px;padding-top:32px;border-top:1px solid var(--border);text-align:center;color:var(--muted);font-size:13px;font-family:'JetBrains Mono',monospace}
+</style>
+</head>
+<body>
+<button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+  <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+  <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+</button>
+<div class="wrap">
+
+  <!-- HERO -->
+  <header class="hero">
     <div>
-      <div class="badge">NeurIPS 2026 (Spotlight)</div>
-      <img src="/assets/img/publication_preview/VisInteract_NeurIPS26.png" alt="VisInteract recovers user intent from imperfect text-to-visualization queries through dynamic multi-turn interaction" loading="lazy" />
+      <div class="eyebrow"><span class="dot"></span>Ph.D. student · Hong Kong</div>
+      <h1 class="name">Wenxin Xu</h1>
+      <p class="native">许文鑫</p>
+      <p class="tagline">1st-year Ph.D. student at <em>The Hong Kong Polytechnic University</em>, co-advised by <a href="https://www.zhangchen.info/">Chen Jason Zhang</a>, <a href="https://www4.comp.polyu.edu.hk/~x1wei/">Xiaoyong Wei</a>, and <a href="https://www4.comp.polyu.edu.hk/~csqli/">Qing Li</a>. Previously, I received my Master's and Bachelor's degrees from Xidian University, advised by <a href="https://web.xidian.edu.cn/xliang/index.html">Xuefeng Liang</a>.<br>Research interests: <em>LLM reasoning</em>, <em>LLM agents</em>, <em>agentic harnesses</em>, <em>text-to-vis</em>, <em>text-to-SQL</em>, <em>multimodal learning</em>, and <em>affective computing</em>.</p>
+      <div class="pills">
+        <a class="pill" href="mailto:wenxin.xu.xhzd@gmail.com">✉ wenxin.xu.xhzd@gmail.com</a>
+        <a class="pill" href="./assets/pdf/CV_Xu%20Wenxin.pdf">↓ CV</a>
+        <a class="pill" href="https://github.com/wxxv">GitHub</a>
+        <a class="pill" href="https://scholar.google.com/citations?user=PNCUHp8AAAAJ">Google Scholar</a>
+      </div>
     </div>
+    <div class="photo-wrap"><img src="./assets/img/xwx.jpg" alt="Wenxin Xu"></div>
+  </header>
+
+  <!-- STATS (auto-updated from Google Scholar) -->
+  <div class="stats">
+    <div class="stat"><div class="stat-num" id="stat-citations">104</div><div class="stat-label">Citations</div><div class="stat-source">Google Scholar &middot; as of Oct 24, 2026</div></div>
+    <div class="stat"><div class="stat-num" id="stat-hindex">2</div><div class="stat-label">h-index</div><div class="stat-source">Google Scholar &middot; as of Oct 24, 2026</div></div>
+    <div class="stat"><div class="stat-num" id="stat-pubs">5</div><div class="stat-label">Publications</div><div class="stat-source">peer-reviewed</div></div>
+    <div class="stat"><div class="stat-num" id="stat-preprints">1</div><div class="stat-label">Active Preprints</div><div class="stat-source">arXiv</div></div>
   </div>
-  <div class="paper-box-text">
 
-    <p><strong>VisInteract: Towards Dynamic Interactive Text-to-Visualization under Imperfect Queries</strong></p>
+  <!-- NEWS -->
+  <section>
+    <div class="sec-head"><h2>Latest <span class="accent">News</span></h2><span class="sec-meta">// updates</span></div>
+    <div class="news">
+      <div class="news-card"><div class="news-date">Sep 2026</div><div class="news-text"><a href="#visinteract">VisInteract</a>, on dynamic interactive text-to-visualization, was accepted by <strong>NeurIPS 2026</strong> as a <strong>Spotlight</strong> (292/30709 papers).</div></div>
+      <div class="news-card"><div class="news-date">May 2026</div><div class="news-text"><a href="#text2vis">One paper</a> on robust and interactive text-to-visualization was accepted by <strong>The VLDB Journal</strong>.</div></div>
+      <div class="news-card"><div class="news-date">May 2026</div><div class="news-text">New preprint <a href="#pmvis">PMVis</a> released, on reliable agentic progressive text-to-visualization.</div></div>
+      <div class="news-card"><div class="news-date">Oct 2024</div><div class="news-text"><a href="#momke">MoMKE</a> received a <strong>Best Paper Nomination</strong> (26/4385 papers) and an <strong>Honourable Mention Award</strong> (10/4385 papers) at ACM MM 2024.</div></div>
+      <div class="news-card"><div class="news-date">Aug 2024</div><div class="news-text"><a href="#ulda">ULDA</a>, on imbalanced regression for emotion recognition, was accepted by <strong>Pattern Recognition</strong>.</div></div>
+      <div class="news-card"><div class="news-date">Jul 2024</div><div class="news-text"><a href="#momke">MoMKE</a>, on incomplete multimodal learning, was accepted by <strong>ACM MM 2024</strong> as an oral presentation (3.97%).</div></div>
+      <div class="news-card"><div class="news-date">Aug 2023</div><div class="news-text"><a href="#pdds">PDDS</a>, on imbalanced classification for emotion recognition, was accepted by <strong>PRCV 2023</strong>.</div></div>
+    </div>
+  </section>
 
-    <p class="paper-authors"><strong>Authors:</strong> <strong class="author-self">Wenxin Xu<sup>*</sup></strong>, Jinwei Lu<sup>*</sup>, Hwanhee Kim, Chen Jason Zhang, Xiao-Yong Wei, Haoyang Li, Yuanfeng Song</p>
+  <!-- RESEARCH -->
+  <section>
+    <div class="sec-head"><h2>Research <span class="accent">Portfolio</span></h2><span class="sec-meta" id="result-count">// 5 papers</span></div>
+    <p class="note">* equal contribution.</p>
 
-    <p class="paper-venue"><strong>Conference:</strong> <em>The Fortieth Annual Conference on Neural Information Processing Systems</em> <strong>(NeurIPS 2026), Spotlight (292/30709)</strong></p>
+    <div class="controls">
+      <div class="search-bar">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+        <input id="search" type="text" placeholder="Search papers by title or keyword…" aria-label="Search papers">
+      </div>
+      <div class="filter-group"><span class="label">Show:</span>
+        <button class="filter" data-view="selected">selected</button>
+        <button class="filter active" data-view="all">all papers</button>
+      </div>
+      <div class="filter-group"><span class="label">Venue:</span>
+        <button class="filter active" data-fk="venue" data-fv="all">all</button>
+        <button class="filter" data-fk="venue" data-fv="NeurIPS">NeurIPS</button>
+        <button class="filter" data-fk="venue" data-fv="VLDBJ">VLDBJ</button>
+        <button class="filter" data-fk="venue" data-fv="MM">ACM MM</button>
+        <button class="filter" data-fk="venue" data-fv="PR">PR</button>
+        <button class="filter" data-fk="venue" data-fv="PRCV">PRCV</button>
+        <button class="filter" data-fk="venue" data-fv="arXiv">preprints</button>
+      </div>
+      <div class="filter-group"><span class="label">Year:</span>
+        <button class="filter active" data-fk="year" data-fv="all">all</button>
+        <button class="filter" data-fk="year" data-fv="2026">2026</button>
+        <button class="filter" data-fk="year" data-fv="2025">2025</button>
+        <button class="filter" data-fk="year" data-fv="2024">2024</button>
+        <button class="filter" data-fk="year" data-fv="2023">2023</button>
+      </div>
+      <div class="filter-group"><span class="label">Role:</span>
+        <button class="filter active" data-fk="position" data-fv="all">all</button>
+        <button class="filter" data-fk="position" data-fv="first">1st author</button>
+        <button class="filter" data-fk="position" data-fv="co-first">co-first</button>
+        <button class="filter" data-fk="position" data-fv="second">2nd author</button>
+        <button class="filter" data-fk="position" data-fv="other">others</button>
+      </div>
+      <div class="filter-group"><span class="label">Sort:</span>
+        <button class="filter active" data-sort="newest">newest first</button>
+        <button class="filter" data-sort="citations">by citations</button>
+        <button class="filter" data-sort="role">by role (1st first)</button>
+      </div>
+    </div>
 
-    <div class="paper-links"><a href="https://arxiv.org/abs/2609.15182">Paper</a><a href="https://github.com/wxxv/VisInteract">Code</a></div>
+    <div class="grid" id="grid">
+      <div class="card" id="pmvis" data-citations="1" data-venue="arXiv" data-year="2026" data-arxiv="2605.29692" data-keywords="PMVis PMVisAgent text-to-visualization" data-selected><div class="card-row"><span class="venue preprint">PREPRINT</span><span class="year">2026 · arXiv 2605.29692</span></div><div class="card-title">Towards Reliable Agentic Progressive Text-to-Visualization with Verification Rules</div><div class="card-authors"><span class="me">Wenxin Xu</span>, Chen Jason Zhang, Xiaoyong Wei, Haoyang Li, Hwanhee Kim, Yuanfeng Song, Raymond Chi-Wing Wong</div><div class="card-links"><a href="https://arxiv.org/abs/2605.29692">paper</a><a href="https://github.com/wxxv/PMVis">code</a></div></div>
+      <div class="card" id="visinteract" data-citations="0" data-venue="NeurIPS" data-year="2026" data-arxiv="2609.15182" data-keywords="VisInteract text-to-visualization" data-selected><div class="card-row"><span class="venue">NeurIPS · Spotlight</span><span class="ccf ccf-a">CCF-A</span><span class="year">2026</span></div><div class="card-title">VisInteract: Towards Dynamic Interactive Text-to-Visualization under Imperfect Queries</div><div class="card-authors"><span class="me">Wenxin Xu*</span>, Jinwei Lu*, Hwanhee Kim, Chen Jason Zhang, Xiao-Yong Wei, Haoyang Li, Yuanfeng Song</div><div class="card-links"><a href="https://arxiv.org/abs/2609.15182">paper</a><a href="https://github.com/wxxv/VisInteract">code</a></div></div>
+      <div class="card" id="text2vis" data-citations="0" data-venue="VLDBJ" data-year="2026" data-keywords="text-to-visualization Robust-Vis" data-selected><div class="card-row"><span class="venue">VLDB Journal</span><span class="ccf ccf-a">CCF-A</span><span class="year">2026</span></div><div class="card-title">Towards Robust and Interactive Text-to-Visualization Translation: Enhancing Model Robustness and Mitigating Ambiguity in Natural Language Queries</div><div class="card-authors">Jinwei Lu*, <span class="me">Wenxin Xu*</span>, Yuanfeng Song, Haodi Zhang, Chen Jason Zhang, Kaishun Wu, Xiaoyong Wei, Raymond Chi-Wing Wong</div><div class="card-links"><a href="https://link.springer.com/article/10.1007/s00778-026-00992-6">paper</a><a href="https://github.com/Jinwei-Lu/Robust-Vis">code</a></div></div>
+      <div class="card" id="momke" data-citations="96" data-venue="MM" data-year="2024" data-keywords="MoMKE incomplete multimodal" data-selected><div class="card-row"><span class="venue">ACM MM</span><span class="ccf ccf-a">CCF-A</span><span class="year">2024</span><span class="award">Honourable Mention Award · 10/4385</span><span class="award">Best Paper Nomination · 26/4385</span></div><div class="card-title">Leveraging Knowledge of Modality Experts for Incomplete Multimodal Learning</div><div class="card-authors"><span class="me">Wenxin Xu*</span>, Hexin Jiang*, Xuefeng Liang</div><div class="card-links"><a href="https://doi.org/10.1145/3664647.3681683">paper</a><a href="https://github.com/wxxv/MoMKE">code</a></div></div>
+      <div class="card" id="ulda" data-citations="2" data-venue="PR" data-year="2024" data-arxiv="2307.07682" data-keywords="ULDA emotion recognition"><div class="card-row"><span class="venue">Pattern Recognition</span><span class="ccf ccf-b">CCF-B</span><span class="year">2024</span></div><div class="card-title">Learning Subjective Time-series Data via Utopia Label Distribution Approximation</div><div class="card-authors">Xuefeng Liang, <span class="me">Wenxin Xu</span>, Hexin Jiang, Ying Zhou, Yin Zhao, Jie Zhang</div><div class="card-links"><a href="https://doi.org/10.1016/j.patcog.2024.110924">paper</a><a href="https://github.com/wxxv/ULDA_LIRIS_PGL">code</a></div></div>
+      <div class="card" id="pdds" data-citations="5" data-venue="PRCV" data-year="2023" data-arxiv="2302.08650" data-keywords="PDDS emotion recognition"><div class="card-row"><span class="venue">PRCV</span><span class="ccf ccf-c">CCF-C</span><span class="year">2023</span></div><div class="card-title">Pairwise-Emotion Data Distribution Smoothing for Emotion Recognition</div><div class="card-authors">Hexin Jiang, Xuefeng Liang, <span class="me">Wenxin Xu</span>, Ying Zhou</div><div class="card-links"><a href="https://doi.org/10.1007/978-981-99-8435-0_13">paper</a></div></div>
+    </div>
+    <div class="empty" id="empty" style="display:none">No papers match your filters.</div>
+  </section>
 
-  </div>
+  <!-- EXPERIENCE -->
+  <section>
+    <div class="sec-head"><h2>Education <span class="accent">&amp; Experience</span></h2><span class="sec-meta">// timeline</span></div>
+    <div class="exp">
+      <div class="exp-card"><div class="exp-org">The Hong Kong Polytechnic University</div><div class="exp-when">Jan 2026 – Present</div><div class="exp-desc"><strong>Ph.D. student</strong>, co-advised by <a href="https://www.zhangchen.info/">Chen Jason Zhang</a>, <a href="https://www4.comp.polyu.edu.hk/~x1wei/">Xiaoyong Wei</a>, and <a href="https://www4.comp.polyu.edu.hk/~csqli/">Qing Li</a>.</div></div>
+      <div class="exp-card"><div class="exp-org">The Hong Kong Polytechnic University</div><div class="exp-when">Apr 2025 – Dec 2025</div><div class="exp-desc"><strong>Research Assistant</strong>.</div></div>
+      <div class="exp-card"><div class="exp-org">Xidian University</div><div class="exp-when">Sep 2022 – Jun 2025</div><div class="exp-desc"><strong>Master's degree</strong>, advised by <a href="https://web.xidian.edu.cn/xliang/index.html">Xuefeng Liang</a>.</div></div>
+      <div class="exp-card"><div class="exp-org">Xidian University</div><div class="exp-when">Sep 2018 – Jun 2022</div><div class="exp-desc"><strong>Bachelor's degree</strong>.</div></div>
+    </div>
+  </section>
+
+  <!-- HONORS -->
+  <section>
+    <div class="sec-head"><h2>Honors <span class="accent">&amp; Awards</span></h2></div>
+    <div class="exp">
+      <div class="exp-card"><div class="exp-org">Outstanding Graduates</div><div class="exp-when">2025</div><div class="exp-desc">Xidian University.</div></div>
+      <div class="exp-card"><div class="exp-org">Outstanding Student</div><div class="exp-when">2024 &amp; 2025</div><div class="exp-desc">Xidian University.</div></div>
+      <div class="exp-card"><div class="exp-org">ACM MM Honourable Mention Award</div><div class="exp-when">2024</div><div class="exp-desc">Honourable Mention Award for MoMKE, 10/4385 papers.</div></div>
+      <div class="exp-card"><div class="exp-org">ACM MM Best Paper Nomination</div><div class="exp-when">2024</div><div class="exp-desc">Best Paper Nomination for MoMKE, 26/4385 papers.</div></div>
+      <div class="exp-card"><div class="exp-org">National Scholarship</div><div class="exp-when">2024</div><div class="exp-desc">National Scholarship, China.</div></div>
+    </div>
+  </section>
+
+  <footer>wenxin.xu.xhzd@gmail.com · Hong Kong · © 2026</footer>
 </div>
 
-<div class="paper-box" id="publication-text2vis">
-  <div class="paper-box-image">
-    <div>
-      <div class="badge">VLDBJ 2026</div>
-      <img src="/assets/img/publication_preview/Text2Vis_VLDBJ26.png" alt="Lexical and phrasal variability challenges in text-to-visualization" loading="lazy" />
-    </div>
-  </div>
-  <div class="paper-box-text">
-
-    <p><strong>Towards Robust and Interactive Text-to-Visualization Translation: Enhancing Model Robustness and Mitigating Ambiguity in Natural Language Queries</strong></p>
-
-    <p class="paper-authors"><strong>Authors:</strong> Jinwei Lu<sup>*</sup>, <strong class="author-self">Wenxin Xu<sup>*</sup></strong>, Yuanfeng Song, Haodi Zhang, Chen Jason Zhang, Kaishun Wu, Xiaoyong Wei, Raymond Chi-Wing Wong</p>
-
-    <p class="paper-venue"><strong>Journal:</strong> <em>The VLDB Journal</em>, 2026</p>
-
-    <div class="paper-links"><a href="https://link.springer.com/article/10.1007/s00778-026-00992-6">Paper</a><a href="https://github.com/Jinwei-Lu/Robust-Vis">Code</a></div>
-
-  </div>
+<!-- Abstract hover popover -->
+<div class="abstract-pop" id="pop">
+  <div class="pop-label">abstract</div>
+  <div class="pop-body" id="pop-body">Loading…</div>
 </div>
 
-<div class="paper-box" id="publication-momke">
-  <div class="paper-box-image">
-    <div>
-      <div class="badge">ACM MM 2024 (Honourable Mention Award)</div>
-      <img src="/assets/img/publication_preview/MoMKE_MM24.jpg" alt="Overview of the Mixture of Modality Knowledge Experts framework" loading="lazy" />
-    </div>
-  </div>
-  <div class="paper-box-text">
+<script>
+/* ==========  AUTO-DETECT AUTHOR POSITION  ========== */
+const grid=document.getElementById('grid');
+Array.from(grid.children).forEach((c,i)=>c.dataset.idx=String(i));
+function detectPositions(){
+  document.querySelectorAll('.card').forEach(card=>{
+    const a=card.querySelector('.card-authors');
+    if(!a){card.dataset.position='other';return}
+    const me=a.querySelector('.me');
+    if(!me){card.dataset.position='other';return}
+    const coFirst=me.textContent.includes('*');
+    const html=a.innerHTML;
+    const meIdx=html.indexOf('<span class="me"');
+    const commas=(html.substring(0,meIdx).match(/,/g)||[]).length;
+    // Equal-contribution first author stays in 1st. Equal contribution
+    // further down the list is co-first.
+    if(commas===0) card.dataset.position='first';
+    else if(coFirst) card.dataset.position='co-first';
+    else if(commas===1) card.dataset.position='second';
+    else card.dataset.position='other';
+  });
+}
+detectPositions();
 
-    <p><strong>Leveraging Knowledge of Modality Experts for Incomplete Multimodal Learning</strong></p>
+/* ==========  CITATIONS (Google Scholar, injected server-side)  ========== */
+function loadCitations(){
+  document.querySelectorAll('.card[data-citations]').forEach(card=>{
+    const cite=card.dataset.citations;
+    if(cite==null||cite==='') return;
+    const links=card.querySelector('.card-links');
+    if(!links||links.querySelector('.cites')) return;
+    const b=document.createElement('span');b.className='cites';b.textContent='cited by '+cite;
+    links.appendChild(b);
+  });
+  if(state.sort==='citations') apply();
+}
 
-    <p class="paper-authors"><strong>Authors:</strong> <strong class="author-self">Wenxin Xu<sup>*</sup></strong>, Hexin Jiang<sup>*</sup>, Xuefeng Liang</p>
+/* ==========  FILTERS + SORT + SEARCH  ========== */
+const POS_ORDER={'first':0,'co-first':1,'second':2,'other':3};
+const state={view:'all',venue:'all',year:'all',position:'all',q:'',sort:'newest'};
+function apply(){
+  const cards=Array.from(grid.children);
+  cards.sort((a,b)=>{
+    if(state.sort==='newest'){
+      const yA=+a.dataset.year||0,yB=+b.dataset.year||0;
+      if(yA!==yB) return yB-yA;
+      return (+a.dataset.idx)-(+b.dataset.idx);
+    } else if(state.sort==='role'){
+      const pA=POS_ORDER[a.dataset.position]??4, pB=POS_ORDER[b.dataset.position]??4;
+      if(pA!==pB) return pA-pB;
+      const yA=+a.dataset.year||0,yB=+b.dataset.year||0;
+      return yB-yA;
+    } else if(state.sort==='citations'){
+      return (+b.dataset.citations||0)-(+a.dataset.citations||0);
+    }
+    return 0;
+  });
+  cards.forEach(c=>grid.appendChild(c));
+  const q=state.q.toLowerCase().trim();
+  let shown=0;
+  cards.forEach(c=>{
+    const okV=state.venue==='all'||c.dataset.venue===state.venue;
+    const okY=state.year==='all'||c.dataset.year===state.year;
+    const okP=state.position==='all'||c.dataset.position===state.position;
+    const okQ=!q||(c.textContent+' '+(c.dataset.keywords||'')).toLowerCase().includes(q);
+    const okS=state.view==='all'||c.hasAttribute('data-selected');
+    const show=okS&&okV&&okY&&okP&&okQ;
+    c.classList.toggle('hidden',!show);
+    if(show) shown++;
+  });
+  document.getElementById('result-count').textContent=state.view==='selected'
+    ? '// '+shown+' selected · '+cards.length+' total'
+    : '// '+shown+' paper'+(shown===1?'':'s');
+  document.getElementById('empty').style.display=shown?'none':'block';
+}
+function setView(v){
+  state.view=v;
+  document.querySelectorAll('.filter[data-view]').forEach(x=>x.classList.toggle('active',x.dataset.view===v));
+}
+document.querySelectorAll('.filter[data-view]').forEach(b=>{
+  b.addEventListener('click',()=>{setView(b.dataset.view);apply()});
+});
+document.querySelectorAll('.filter[data-fk]').forEach(b=>{
+  b.addEventListener('click',()=>{
+    if(b.dataset.fv!=='all') setView('all');
+    const k=b.dataset.fk;
+    document.querySelectorAll('.filter[data-fk="'+k+'"]').forEach(x=>x.classList.remove('active'));
+    b.classList.add('active');
+    state[k]=b.dataset.fv;
+    apply();
+  });
+});
+document.querySelectorAll('.filter[data-sort]').forEach(b=>{
+  b.addEventListener('click',()=>{
+    document.querySelectorAll('.filter[data-sort]').forEach(x=>x.classList.remove('active'));
+    b.classList.add('active');
+    state.sort=b.dataset.sort;
+    apply();
+  });
+});
+document.getElementById('search').addEventListener('input',e=>{
+  state.q=e.target.value;
+  if(state.q.trim()) setView('all');
+  apply();
+});
 
-    <p class="paper-venue"><strong>Conference:</strong> <em>Proceedings of the 32nd ACM International Conference on Multimedia</em> <strong>(ACM MM 2024), Honourable Mention Award (10/4385)</strong></p>
+/* ==========  ABSTRACT POPOVER  ========== */
+const ABSTRACTS = {
+  "pmvis": "Text-to-Visualization (Text-to-Vis) translates natural language queries into visualization query languages, enabling non-expert users to perform data analysis. However, most existing methods follow a one-shot paradigm that requires users to specify all visualization details in a single round, often leading to cognitive overload and incorrect visualizations. In this paper, we propose PMVis, a progressive multi-turn paradigm for text-to-vis, where users' intents are refined through multi-turn interactions. To support research in this paradigm, we construct PMVisBench, the first dataset designed to capture the progressive and iterative nature of real-world user queries. It is built through VQL simplification and NLQ reconstruction, with explicit rule constraints to ensure each intermediate VQL remains valid and meaningful. Building upon PMVis, we further introduce PMVisAgent, an agent-based framework that simulates realistic user-system dialogues. PMVisAgent consists of a User, a System, and a Validation Agent that performs verification and repair via a ReAct-style tool-use loop to mitigate error accumulation across rounds, with explicit interaction and verification rules to ensure reliability of the multi-agent system. Extensive experiments on PMVisBench demonstrate that PMVisAgent significantly outperforms state-of-the-art text-to-vis baselines. It achieves up to 17.57% and 23.21% improvements in execution accuracy in single-table and multi-table settings, respectively, while ablation studies confirm the importance of combining progressive interaction with clarification. The code is available at https://github.com/wxxv/PMVis.",
+  "visinteract": "Real-world visualization requests are routinely ambiguous, incomplete, or factually incorrect, yet existing Text-to-Visualization (Text-to-Vis) systems assume well-specified inputs and produce charts in a single pass. When queries are imperfect, a system must interact with the user to recover the true intent, but no benchmark or method supports this dynamic process. We introduce VisInteract, a new paradigm that reframes Text-to-Vis as interaction-driven intent recovery, and VisInteract-Bench, to our knowledge, that is the first benchmark for dynamic interactive Text-to-Vis, featuring controlled imperfection injection, a leakage-controlled User Agent for realistic multi-turn feedback, and dual-perspective (code and chart) automated evaluation. On the algorithmic side, we propose Vis-MCTS, a Monte Carlo Tree Search (MCTS) enhanced method, introducing improvements over classical MCTS, that Progressive Widening to tame the unbounded tool-argument space in tree search, cross-rollout information sharing so clarifications and critiques benefit the entire search tree, and Dimension-Aware Reward Decomposition that routes scalar user feedback along data-fidelity, visual-design, and intent-alignment dimensions to resolve credit assignment across heterogeneous actions. Extensive Experiments across two LLM backbones show that Vis-MCTS consistently outperforms all Text-to-Vis baselines, improving end-to-end task success by 13.40%–16.27% over the strongest interactive baseline and by more than 5× over non-interactive ones.",
+  "text2vis": "Text-to-Vis is an emerging task in the data engineering and mining area that aims to automatically generate data visualizations from natural language questions (NLQs). Despite their progress, existing text-to-vis models often heavily rely on lexical matching between words in the questions and tokens in data schemas. This overreliance on lexical matching may lead to a diminished level of model robustness against input variations. In this study, we thoroughly examine the robustness of current text-to-vis models, an area that has not previously been explored. In particular, we construct the first robustness dataset nvBench-Rob, which contains diverse lexical and phrasal variations based on the original text-to-vis benchmark nvBench. Then, we found that the performance of existing text-to-vis models on this new dataset dramatically drops, implying that these methods exhibit inadequate robustness overall. To this end, we propose a novel framework based on Retrieval-Augmented Generation (RAG) technique, named GRED, specifically designed to address input perturbations in these two variants. The framework consists of three parts: NLQ-Retrieval Generator, Visualization Query-Retrieval Retuner and Annotation-based Debugger, which are used to tackle the challenges posed by natural language variants, programming style differences and data schema variants, respectively. Furthermore, we extend the framework, named C&C, which further mitigates the uncertainty in visualization caused by ambiguous NLQ. It chooses the clause with the largest expected reduction of uncertainty under an elicited heuristic candidate-confidence measure and interacts with users for clarification to resolve ambiguity. This targeted interaction ensures that the resulting visualization more accurately reflects the user’s actual intent. Extensive experimental evaluations show that, compared to the state-of-the-art model Prompt4Vis in the Text-to-Vis field, GRED and C&C perform better in terms of model robustness, with more than 40% increase in accuracy on the proposed nvBench-Rob dataset.",
+  "momke": "Multimodal Emotion Recognition (MER) may encounter incomplete multimodal scenarios caused by sensor damage or privacy protection in practical applications. Existing incomplete multimodal learning methods focus on learning better joint representations across modalities. However, our investigation shows that they are lacking in learning the unimodal representations which are rather discriminative as well. Instead, we propose a novel framework named Mixture of Modality Knowledge Experts (MoMKE) with two-stage training. In unimodal expert training, each expert learns the unimodal knowledge from the corresponding modality. In experts mixing training, both unimodal and joint representations are learned by leveraging the knowledge of all modality experts. In addition, we design a special Soft Router that can enrich the modality representations by dynamically mixing the unimodal representations and the joint representations. Various incomplete multimodal experiments on three benchmark datasets showcase the robust performance of MoMKE, especially on severely incomplete conditions. Visualization analysis further reveals the considerable value of unimodal and joint representations. Codes are realised at https://github.com/wxxv/MoMKE.",
+  "ulda": "Subjective time-series regression (STR) tasks have gained increasing attention recently. However, most existing methods overlook the label distribution bias in STR data, which results in biased models. Emerging studies on imbalanced regression tasks, such as age estimation and depth estimation, hypothesize that the prior label distribution of the dataset is uniform. However, we observe that the label distributions of training and test sets in STR tasks are likely to be neither uniform nor identical. This distinct feature calls for new approaches that estimate more reasonable distributions to train a fair model. In this work, we propose Utopia Label Distribution Approximation (ULDA) for time-series data, which makes the training label distribution closer to real-world but unknown (utopia) label distribution. This would enhance the model's fairness. Specifically, ULDA first convolves the training label distribution by a Gaussian kernel. After convolution, the required sample quantity at each regression label may change. We further devise the Time-slice Normal Sampling (TNS) to generate new samples when the required sample quantity is greater than the initial sample quantity, and the Convolutional Weighted Loss (CWL) to lower the sample weight when the required sample quantity is less than the initial quantity. These two modules not only assist the model training on the approximated utopia label distribution, but also maintain the sample continuity in temporal context space. To the best of our knowledge, ULDA is the first method to address the label distribution bias in time-series data. Extensive experiments demonstrate that ULDA lifts the state-of-the-art performance on two STR tasks and three benchmark datasets.",
+  "pdds": "In speech emotion recognition tasks, models learn emotional representations from datasets. We find the data distribution in the IEMOCAP dataset is very imbalanced, which may harm models to learn a better representation. To address this issue, we propose a novel Pairwise-emotion Data Distribution Smoothing (PDDS) method. PDDS considers that the distribution of emotional data should be smooth in reality, then applies Gaussian smoothing to emotion-pairs for constructing a new training set with a smoother distribution. The required new data are complemented using the mixup augmentation. As PDDS is model and modality agnostic, it is evaluated with three SOTA models on the IEMOCAP dataset. The experimental results show that these models are improved by 0.2% - 4.8% and 1.5% - 5.9% in terms of WA and UA. In addition, an ablation study demonstrates that the key advantage of PDDS is the reasonable data distribution rather than a simple data augmentation."
+};
+const pop=document.getElementById('pop'), popBody=document.getElementById('pop-body');
+let hoverTimer=null;
+function showAbstract(card,evt){
+  const abs=ABSTRACTS[card.id];
+  if(!abs) return;
+  popBody.textContent=abs;
+  pop.classList.add('show');
+  positionPop(evt);
+}
+function positionPop(e){
+  const w=pop.offsetWidth||440, h=pop.offsetHeight||180;
+  let x=e.clientX+18, y=e.clientY+18;
+  if(x+w>innerWidth-20) x=e.clientX-w-18;
+  if(y+h>innerHeight-20) y=Math.max(12, e.clientY-h-18);
+  pop.style.left=Math.max(12,x)+'px';
+  pop.style.top=Math.max(12,y)+'px';
+}
+document.querySelectorAll('.card').forEach(c=>{
+  if(!ABSTRACTS[c.id]) return;
+  c.addEventListener('mouseenter',e=>{
+    hoverTimer=setTimeout(()=>showAbstract(c,e),200);
+  });
+  c.addEventListener('mousemove',e=>{
+    if(pop.classList.contains('show')) positionPop(e);
+  });
+  c.addEventListener('mouseleave',()=>{
+    clearTimeout(hoverTimer);
+    pop.classList.remove('show');
+  });
+});
 
-    <div class="paper-links"><a href="https://doi.org/10.1145/3664647.3681683">Paper</a><a href="https://github.com/wxxv/MoMKE">Code</a></div>
+/* ==========  THEME TOGGLE  ========== */
+(function(){
+  const saved=localStorage.getItem('theme')||'dark';
+  if(saved==='light') document.documentElement.setAttribute('data-theme','light');
+  document.getElementById('theme-toggle').addEventListener('click',()=>{
+    const isLight=document.documentElement.getAttribute('data-theme')==='light';
+    if(isLight){document.documentElement.removeAttribute('data-theme');localStorage.setItem('theme','dark')}
+    else{document.documentElement.setAttribute('data-theme','light');localStorage.setItem('theme','light')}
+  });
+})();
 
-  </div>
-</div>
+/* ==========  INIT  ========== */
+(function refreshPaperStats(){
+  const cards=document.querySelectorAll('#grid .card');
+  let pubs=0, prep=0;
+  cards.forEach(c=>{ (c.dataset.venue==='arXiv'?prep++:pubs++) });
+  document.getElementById('stat-pubs').textContent=pubs;
+  document.getElementById('stat-preprints').textContent=prep;
+})();
 
-<div class="paper-box" id="publication-ulda">
-  <div class="paper-box-image">
-    <div>
-      <div class="badge">PR 2024</div>
-      <img src="/assets/img/publication_preview/ULDA_PR24.jpg" alt="Overview of Utopia Label Distribution Approximation" loading="lazy" />
-    </div>
-  </div>
-  <div class="paper-box-text">
-
-    <p><strong>Learning Subjective Time-series Data via Utopia Label Distribution Approximation</strong></p>
-
-    <p class="paper-authors"><strong>Authors:</strong> Xuefeng Liang, <strong class="author-self">Wenxin Xu</strong>, Hexin Jiang, Ying Zhou, Yin Zhao, Jie Zhang</p>
-
-    <p class="paper-venue"><strong>Journal:</strong> <em>Pattern Recognition</em>, 2024</p>
-
-    <div class="paper-links"><a href="https://doi.org/10.1016/j.patcog.2024.110924">Paper</a><a href="https://github.com/wxxv/ULDA_LIRIS_PGL">Code</a></div>
-
-  </div>
-</div>
-
-<div class="paper-box" id="publication-pdds">
-  <div class="paper-box-image">
-    <div>
-      <div class="badge">PRCV 2023</div>
-      <img src="/assets/img/publication_preview/PDDS_PRCV23.jpg" alt="Overview of Pairwise-Emotion Data Distribution Smoothing" loading="lazy" />
-    </div>
-  </div>
-  <div class="paper-box-text">
-
-    <p><strong>Pairwise-Emotion Data Distribution Smoothing for Emotion Recognition</strong></p>
-
-    <p class="paper-authors"><strong>Authors:</strong> Hexin Jiang, Xuefeng Liang, <strong class="author-self">Wenxin Xu</strong>, Ying Zhou</p>
-
-    <p class="paper-venue"><strong>Conference:</strong> <em>Chinese Conference on Pattern Recognition and Computer Vision</em> <strong>(PRCV 2023)</strong></p>
-
-    <div class="paper-links"><a href="https://doi.org/10.1007/978-981-99-8435-0_13">Paper</a></div>
-
-  </div>
-</div>
-
-<p><span class="anchor" id="honors"></span></p>
-
-<h1 id="-honors-and-awards">🎖 Honors and Awards</h1>
-
-<ul>
-  <li><em>2025</em>, <strong>Outstanding Graduates</strong>, Xidian University.</li>
-  <li><em>2024 &amp; 2025</em>, <strong>Outstanding Student</strong>, Xidian University.</li>
-  <li><em>2024</em>, <strong>ACM MM 2024 Honourable Mention Award</strong>.</li>
-  <li><em>2024</em>, <strong>National Scholarship</strong>.</li>
-</ul>
-
-<p><span class="anchor" id="experience"></span></p>
-
-<h1 id="-experience">📖 Experience</h1>
-
-<ul>
-  <li><em>2026.01 ～ Present</em>, <strong>Ph.D. student</strong>, The Hong Kong Polytechnic University.</li>
-  <li><em>2025.04 ～ 2025.12</em>, <strong>Research Assistant</strong>, The Hong Kong Polytechnic University.</li>
-  <li><em>2022.09 ～ 2025.06</em>, <strong>Master’s degree</strong>, Xidian University.</li>
-  <li><em>2018.09 ～ 2022.06</em>, <strong>Bachelor’s degree</strong>, Xidian University.</li>
-</ul>
-
-          </section>
-        </div>
-      </article>
-    </main>
-
-    <script src="/assets/js/main.min.js"></script>
-
-
-
-  </body>
+apply();
+loadCitations();
+</script>
+</body>
 </html>
