@@ -3,39 +3,33 @@ name: Deploy site
 on:
   push:
     branches: [main]
-  pull_request:
-    branches: [main]
   workflow_dispatch:
 
 permissions:
   contents: write
 
 concurrency:
-  group: pages-${{ github.ref }}
-  cancel-in-progress: true
+  group: pages-publish
+  cancel-in-progress: false
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.3"
+          ref: main
 
-      - name: Install dependencies
-        run: bundle install
-
-      - name: Build
-        env:
-          JEKYLL_ENV: production
-        run: bundle exec jekyll build
+      - name: Assemble site
+        run: |
+          mkdir -p _site/assets/img _site/assets/pdf
+          cp index.html .nojekyll robots.txt 404.html _site/
+          cp assets/img/xwx.jpg _site/assets/img/xwx.jpg
+          cp "assets/pdf/CV_Xu Wenxin.pdf" "_site/assets/pdf/CV_Xu Wenxin.pdf"
 
       - name: Deploy
-        if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: _site
+          branch: gh-pages

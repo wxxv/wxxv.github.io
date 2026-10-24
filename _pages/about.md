@@ -1,5 +1,6 @@
 ---
-permalink: /
+permalink: /about/
+published: false
 title: ""
 description: "Wenxin Xu's academic homepage, research interests, publications, news, and experience."
 author_profile: true

@@ -1,12 +1,19 @@
 # Wenxin Xu's Academic Homepage
 
-This repository contains the source for [wxxv.github.io](https://wxxv.github.io), including research interests, news, publications, honors, and experience.
+Source for [wxxv.github.io](https://wxxv.github.io). The page is a static research dashboard adapted from [Chengsong Huang's homepage](https://github.com/Chengsong-Huang/Chengsong-Huang.github.io).
 
-The site is built with Jekyll and adapted from [zwanah/zwanah.github.io](https://github.com/zwanah/zwanah.github.io), which is based on the [AcadHomepage](https://github.com/RayeRen/acad-homepage.github.io) template and Minimal Mistakes.
+Edit `index.html` to update the bio, news, papers, experience, and awards. Portrait and CV live in `assets/`.
 
 ## Local preview
 
 ```bash
-bundle install
-bundle exec jekyll serve
+python -m http.server 8000
 ```
+
+Then open http://localhost:8000/.
+
+## Publishing
+
+GitHub Pages serves the `gh-pages` branch. Pushing to `main` runs `.github/workflows/deploy.yml`, which publishes `index.html`, the portrait, and the CV.
+
+`scripts/update_citations.py` refreshes the Google Scholar citation count, h-index, and per-paper counts. A daily workflow commits any change and republishes the site. Optional: add a `SERPAPI_KEY` repository secret if Google Scholar blocks the free fetch.
